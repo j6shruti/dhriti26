@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff5f7;
+  text-align: center;
+  margin: 0;
+}
+
+#gate {
+  margin-top: 100px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 30px;
+}
+
+.letter {
+  background: #ffe3ec;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.letter:hover {
+  transform: scale(1.05);
+  background: #ffd1dc;
+}
