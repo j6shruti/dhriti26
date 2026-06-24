@@ -1,7 +1,7 @@
 function checkPassword() {
   const pass = document.getElementById("password").value;
 
-  if (pass === "Dhriti26") {
+  if (pass === "123") {
     document.getElementById("gate").style.display = "none";
     document.getElementById("scrapbook").style.display = "block";
     loadLetters();
