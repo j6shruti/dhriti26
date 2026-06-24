@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>26 Letters for 26 Years</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="gate">
+  <h1>✨ A Gift for 26 Years ✨</h1>
+  <p>Enter your password to open your scrapbook</p>
+
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="checkPassword()">Unlock</button>
+
+  <p id="error"></p>
+</div>
+
+<div id="scrapbook" style="display:none;">
+  <h2>💌 26 Letters</h2>
+  <div class="grid" id="letters"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
